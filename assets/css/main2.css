@@ -1,14 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 
-/*
-	Lens by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 /* Reset */
-
 html,
 body,
 div,
@@ -155,13 +148,6 @@ body {
 
 /* Basic */
 
-/*
-		@-ms-viewport {
-			width: device-width;
-		}
-
-	*/
-
 @media screen and (max-width: 480px) {
 
 	html,
@@ -170,6 +156,7 @@ body {
 	}
 
 }
+
 
 body.is-loading-0 *,
 body.is-loading-0 *:before,
@@ -186,8 +173,8 @@ body.is-loading-0 *:after {
 
 html,
 body {
-	background-color: #101010;
-	overflow: hidden;
+	/* background-color: #101010; */
+	background-color: #fff overflow: hidden;
 }
 
 /* Type */
@@ -312,6 +299,7 @@ sup {
 	top: -0.5em;
 }
 
+
 blockquote {
 	border-left: solid 4px #ccc;
 	font-style: italic;
@@ -328,6 +316,7 @@ code {
 	padding: 0.25em 0.65em;
 	border-color: #ccc;
 }
+
 
 pre {
 	-webkit-overflow-scrolling: touch;
@@ -352,6 +341,7 @@ hr.major {
 	margin: 1.875em 0;
 }
 
+
 .align-left {
 	text-align: left;
 }
@@ -363,6 +353,7 @@ hr.major {
 .align-right {
 	text-align: right;
 }
+
 
 /* Button */
 
@@ -687,6 +678,7 @@ input[type="radio"]+label:before {
 	display: none;
 }
 
+
 /* List */
 
 ol {
@@ -824,6 +816,7 @@ dl dd {
 	margin-left: 1.25em;
 }
 
+
 /* Main */
 
 #main {
@@ -872,6 +865,8 @@ body.is-loading-1 #main {
 	right: -2em;
 }
 
+
+
 @media screen and (max-width: 1280px) {
 
 	#main {
@@ -883,6 +878,7 @@ body.is-loading-1 #main {
 	}
 
 }
+
 
 @media screen and (max-width: 980px) {
 
@@ -925,6 +921,7 @@ body.is-loading-1 #main {
 
 }
 
+
 /* Header */
 
 #header {
@@ -958,9 +955,10 @@ body.is-loading-1 #main {
 	margin-left: 0;
 }
 
+
 /* Thumbnails */
 
-#thumbnails {
+/* #thumbnails {
 	display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
@@ -1031,7 +1029,7 @@ body.is-loading-1 #main {
 		display: none;
 	}
 
-}
+} */
 
 /* Viewer */
 
@@ -1160,7 +1158,7 @@ body.is-loading-1 #main {
 	background-position: calc(100% - 0.75em) 0.75em;
 }
 
-#viewer .inner .nav-next,
+/* #viewer .inner .nav-next,
 #viewer .inner .nav-previous {
 	-webkit-tap-highlight-color: transparent;
 	position: absolute;
@@ -1185,7 +1183,7 @@ body.is-loading-1 #main {
 
 #viewer .inner .nav-next {
 	right: 0;
-}
+} */
 
 #viewer .slide {
 	-moz-transition: opacity 0.5s ease-in-out;
